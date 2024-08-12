@@ -3,56 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> <!-- 英語用 -->
+    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/pixel-mplus@2.0.0/style.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
 </head>
 <body>
     <div id="app">
         <div class="site">
             <header>
                 <div class="header-content">
-                    <a href="/" class="title-link">
+                    <a href="/" class="title-link" style="text-decoration: none; color: inherit;">
                         <div class="title">
-                            <h1>ORA Profile</h1>
+                            <h1>ORAホーム</h1>
                         </div>
                     </a> 
                     <nav class="nav">
                         <a href="/blog" class="router-link-active router-link-exact-active">
-                            <button class="nes-btn is-warning">Blog</button>
+                            <button class="nes-btn is-warning">ブログ</button>
                         </a>
                         <a href="/" class="router-link-active router-link-exact-active">
-                            <button class="nes-btn is-warning">Profile</button>
+                            <button class="nes-btn is-warning">プロフィール</button>
                         </a>
                     </nav>
                 </div>
             </header>
-            
+            <div class="header-border"></div>
             <div class="wrapper">
                 <main>
                     <div class="profile">
-                        <div class="sns">
+                        <div class="sns-message">
+                            <section class="message-list">
+                                <section class="message -left">
+                                    <div class="nes-balloon from-left is-dark">
+                                        <p>どうもこんにちは、イノウエヨシト (ORA) と申します。</p>
+                                    </div>
+                                </section>
+                            </section>
+                        </div>
+                        
+                        <div class="sns-icons">
                             <a href="" class="sns-icon" target="_blank" rel="noopener noreferrer">
-                                <i class="nes-icon twitter is-large"></i>
+                                <i class="nes-ash"></i>                                                           
+                            </a>
+                            <a href="" class="sns-icon" target="_blank" rel="noopener noreferrer">
+                                <i class="nes-icon twitter is-large"></i>                             
                             </a>
                             <a href="https://github.com/Inoueyoshito" class="sns-icon" target="_blank" rel="noopener noreferrer">
                                 <i class="nes-icon github is-large"></i>
                             </a>
                         </div>
-                        
-                        <h2>Career</h2>
+                    </div>
+                        <h2>キャリア</h2>
                         <div class="career normal-font">
                             <p>
-                                
+                                2002年07月11日生まれ。</br>
+                                プロサッカー選手を目指すために、スペイン留学や選抜とサッカー漬けの青年でした。</br>
+                                高校2年時に学校推薦でSilicon Valley Projectに参加し、
+                                GAFAM本社を巡りプログラミングに興味を持ち始める。</br>
+                                2022年1月 42 Tokyo 入学</br>
                             </p>
                         </div>
-                        
-                        <div class="more-info">
-                            <a href="/work-experience" class="nes-btn is-warning">mottosiritai</a>
+                        <div class="">
+                            <a href="/to_know" class="nes-btn is-warning">もっと知りたい</a>
                         </div>
-                        
-                        <h2>Skill</h2>
+                        <h2>スキル</h2>
                         <div class="skill normal-font">
                             <ul>
                                 <li>Python</li>
@@ -61,28 +76,38 @@
                                 <li>JavaScript (little)</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
+                                <li>Paiza Sランク</li>
                             </ul>
                         </div>
-                        
-                        <h2>License</h2>
+                        <h2>インターン</h2>
                         <div class="license normal-font">
                             <ul>
-                                <li>第一種普通自動車免許取得</li>
+                                <li>2022年7月~10月、株式会社アイスリーにて業務委託(HP作成) / アルバイト</li>
+                                <li>2023年9月~12月、Shibuya Startup University デモ起業 / チーム開発</li>
+                                <li>2024年3月1日、株式会社ゆめみにて春の1dayインターンシップ</li>
                             </ul>
                         </div>
-                        
-                        <h2>What kind of engineer</h2>
+                        <h2>滞在場所</h2>
+                        <div class="license normal-font">
+                            <ul>
+                                <li>2022年5月～9月　セミプロサッカー選手プレー Working Holiday in Australia</li>
+                                <li>2023年2月～9月　セミプロサッカー選手プレー Working Holiday in Australia</li>
+                            </ul>
+                        </div>
+                        <h2>どんなエンジニアか？</h2>
                         <div class="engineer normal-font">
                             <p>
-                                
+                                「誰かの心に響く物を作る」の言葉が好きで、想像して工夫する事が好き。</br>
+                                興味が湧く事には熱量がかなり高くなる性格なので、ずっとハマってしまうのが悩み。</br>
                             </p>
                         </div>
-                        
-                        <h2>Hobby</h2>
+                        <h2>シュミ</h2>
                         <div class="hobby normal-font">
                             <p>
-                                サッカーと読書と筋トレが好き。<br>
+                                サッカー、筋トレ、海外旅、たまに読書や技術書読む事が好き。<br>
                             </p>
+                            <img src="/static/images/S__21438478.jpg" alt="saccer" class="hobby-image" />
+                            <img src="/static/images/S__21446661.jpg" alt="book" class="hobby-image" />
                         </div>
                     </div>
                 </main>
