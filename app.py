@@ -14,5 +14,9 @@ def blog():
 def to_know():
     return render_template("to_know.html")
 
+@app.route('/create_production')
+def create_production():
+    return render_template("create_production.html")
+
 if __name__ == '__main__':
     app.run(debug=True)

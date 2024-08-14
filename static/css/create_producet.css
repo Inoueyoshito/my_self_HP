@@ -26,6 +26,11 @@ html {
 }
 
 /* サイト全体のスタイル */
+/* 既存のスタイルに追加 */
+ul {
+    margin-bottom: 50px; /* リストの下のマージンを調整 */
+}
+
 .site {
     color: #FFFFFF;
     display: flex;
@@ -37,7 +42,7 @@ html {
 /* ヘッダースタイル */
 header {
     background-color: #57b0d9;
-    padding: 25px;
+    padding: 30px;
     width: 100%;
     display: flex; /* フレックスボックスを使用 */
     justify-content: space-between; /* 左端と右端に配置 */
@@ -147,11 +152,13 @@ main {
 }
 
 h2 {
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 20px;
     font-size: 25px;
     color: #FFFFFF;
     text-align: left;
+    border-bottom: 1px solid white;
+    padding-bottom: 1px;
 }
 
 /* フッタースタイル */
