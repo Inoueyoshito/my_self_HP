@@ -1,8 +1,7 @@
-# my_hp_project
 ## URL
 # https://ora-hp.onrender.com
 
-## 概要
+## Project概要
 自身をを紹介するためにHPを作成しました。
 今回は、無料枠のRenderにデプロイをしました。なので、定期的に叩き起こす為にGAS (Google Apps Script)を使用してトリガーを10分で設定しました。
 
