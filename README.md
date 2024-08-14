@@ -1,6 +1,10 @@
 # my_hp_project
+## URL
+#https://ora-hp.onrender.com
 
-このプロジェクトは、個人のポートフォリオサイトであり、私の経歴やスキルを紹介するために作成しました。
+## 概要
+自身をを紹介するためにHPを作成しました。
+今回は、無料枠のRenderにデプロイをしました。なので、定期的に叩き起こす為にGAS (Google Apps Script)を使用してトリガーを10分で設定しました。
 
 ## 特徴
 
@@ -11,7 +15,8 @@
 
 ## 使用技術
 
-- Python (Flask)
+- Flask
+- Gunicorn
 - HTML
 - CSS
 - JavaScript
