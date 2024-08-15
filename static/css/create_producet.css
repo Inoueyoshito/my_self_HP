@@ -1,4 +1,4 @@
-/* グローバルスタイル */
+* グローバルスタイル */
 *, :after, :before {
     box-sizing: border-box;
 }
