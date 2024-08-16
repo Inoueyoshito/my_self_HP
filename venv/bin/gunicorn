@@ -1,4 +1,4 @@
-#!/home/inoue/orahome/my_hp_project/venv/bin/python3.11
+#!/home/inoue/orahome/My_Self_HP_Project/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
