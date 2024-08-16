@@ -15,11 +15,12 @@
 ## 使用技術
 
 - Flask
-- Gunicorn
 - HTML
 - CSS
 - JavaScript
-- フレームワーク: NES.css
+- Gunicorn
+- Docker
+- NES.css
 
 ## ライセンス
 
