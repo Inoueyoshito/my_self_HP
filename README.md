@@ -17,7 +17,6 @@
 - Flask
 - HTML
 - CSS
-- JavaScript
 - Gunicorn
 - Docker
 - NES.css
