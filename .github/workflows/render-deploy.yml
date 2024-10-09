@@ -18,9 +18,9 @@ jobs:
           docker build -t inoue/my_flask_hp:latest .
 
       # Renderへのデプロイ
-      - uses: Inoueyoshito/my_self_HP@v1.0.0
+      - uses: ttskch/render-deploy@v1.0.0
         with:
           api-key: ${{ secrets.RENDER_API_KEY }}
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
           interval: 20
-          timeout: 300
+          timeout: 300 
