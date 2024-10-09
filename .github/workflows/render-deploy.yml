@@ -16,9 +16,9 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t inoue/my_flask_hp:latest .
-          
+
       # Renderへのデプロイ
-      - uses: ttskch/render-action@v1.0.0
+      - uses: Inoueyoshito/my_self_HP@v1.0.0
         with:
           api_key: ${{ secrets.RENDER_API_KEY }}
           service_id: ${{ secrets.RENDER_SERVICE_ID }}
