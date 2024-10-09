@@ -18,7 +18,7 @@ jobs:
           docker build -t inoue/my_flask_hp:latest .
 
       # Renderへのデプロイ
-      - uses: Inoueyoshito/my_self_HP@v1.0.0
+      - uses: Inoueyoshito/my_self_HP@v1
         with:
           api_key: ${{ secrets.RENDER_API_KEY }}
           service_id: ${{ secrets.RENDER_SERVICE_ID }}
