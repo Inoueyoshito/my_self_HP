@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       # コードのチェックアウト
@@ -20,7 +20,7 @@ jobs:
       # Renderへのデプロイ
       - uses: Inoueyoshito/my_self_HP@v1.0.0
         with:
-          api_key: ${{ secrets.RENDER_API_KEY }}
-          service_id: ${{ secrets.RENDER_SERVICE_ID }}
+          api-key: ${{ secrets.RENDER_API_KEY }}
+          service-id: ${{ secrets.RENDER_SERVICE_ID }}
           intervel: 20 #オプション
           timeout: 300 #オプション
