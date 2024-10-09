@@ -20,5 +20,5 @@ jobs:
       # Renderへのデプロイ
       - uses: Inoueyoshito/my_self_HP@v1.0.0
         with:
-          entryPoint: app.app  # ここでエントリポイントを指定
+          entryPoint: app.app:app  # ここでエントリポイントを指定
           args: ${{ secrets.RENDER_API_KEY }} ${{ secrets.RENDER_SERVICE_ID }} --interval 20 --timeout 300
