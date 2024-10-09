@@ -1,0 +1,26 @@
+name: Render Deploy
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # コードのチェックアウト
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Dockerイメージのビルド
+      - name: Build Docker image
+        run: |
+          docker build -t inoue/my_flask_hp:latest .
+          
+      # Renderへのデプロイ
+      - uses: ttskch/render-action@v1.0.0
+        with:
+          api_key: ${{ secrets.RENDER_API_KEY }}
+          service_id: ${{ secrets.RENDER_SERVICE_ID }}
+          intervel: 20 #オプション
+          timeout: 300 #オプション
