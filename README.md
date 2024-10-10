@@ -31,8 +31,8 @@
 # Render
 https://dashboard.render.com/
 
-## 【Qiita】Render.comへのGithub Actions構築方法
-# https://qiita.com/ora_yoshito/items/a1e697236e7edbbda7fb
+# 【Qiita】Render.comへのGithub Actions構築方法の記事
+https://qiita.com/ora_yoshito/items/a1e697236e7edbbda7fb
 
 ## 作者
 
