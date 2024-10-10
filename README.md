@@ -3,7 +3,8 @@
 
 ## Project概要
 自身を紹介するためにHPを作成しました。
-今回は、無料枠のRenderにデプロイをしました。なので、定期的に叩き起こす為にGAS (Google Apps Script)を使用してトリガーを10分で設定しました。
+今回は、GitHub Actionsを使用して環境を構築し、Renderにデプロイしました。
+そして、定期的に叩き起こす為にGAS (Google Apps Script)を使用してトリガーを10分で設定しました。
 
 ## 特徴
 
@@ -19,6 +20,8 @@
 - CSS
 - Gunicorn
 - Docker
+- Github Actions
+- Render
 - NES.css
 
 ## ライセンス
