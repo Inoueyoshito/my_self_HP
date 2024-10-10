@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Gunicornを使ってFlaskアプリケーションを実行
-CMD ["gunicorn", "--config", "gunicorn_config.py", "app.app:app"]
+CMD ["gunicorn", "--config", "gunicorn_config.py", "app:app"]
