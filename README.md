@@ -35,6 +35,8 @@ https://dashboard.render.com/
 # 【Qiita】Render.comへのGithub Actions構築方法の記事
 https://qiita.com/ora_yoshito/items/a1e697236e7edbbda7fb
 
-## 作者
+# 【Qiita】 自己紹介サイト (開発背景、使用技術、選定技術の理由...)
+https://qiita.com/ora_yoshito/items/b4ff231378aed196bdde
 
+## 作者
 Inoue Yoshito
