@@ -2,7 +2,7 @@
 # https://ora-hp.onrender.com
 
 ## Project概要
-自身を紹介するためにHPを作成しました。
+自身を紹介するためにHPを制作しました。
 今回は、GitHub Actionsを使用して環境を構築し、Renderにデプロイしました。
 そして、定期的に叩き起こす為にGAS (Google Apps Script)を使用してトリガーを10分で設定しました。
 
@@ -23,6 +23,7 @@
 - Github Actions
 - Render
 - NES.css
+- GAS
 
 ## ライセンス
 
