@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/inoue/orahome/My_Self_HP_Project/venv"
+set -gx VIRTUAL_ENV "/home/inoue/orahome/my_self_HP/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
