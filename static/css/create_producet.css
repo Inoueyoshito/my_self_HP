@@ -31,8 +31,13 @@ ul {
     margin-bottom: 50px; /* リストの下のマージンを調整 */
 }
 
+/* to_know.css */
+h3 {
+    color: #444444 !important; /* 優先順位を上げるために!importantを追加 */
+}
+
 .site {
-    color: #FFFFFF;
+    color: #FFFAFA;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -151,11 +156,12 @@ main {
     align-items: flex-end;
 }
 
+
 h2 {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 25px;
-    color: #FFFFFF;
+    color: #444444;
     text-align: left;
     border-bottom: 1px solid white;
     padding-bottom: 1px;

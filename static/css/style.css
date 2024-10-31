@@ -12,7 +12,7 @@
 
 body {
     font-size: 16px;
-    color: #FFFFFF;
+    color: #222222;
     background-color: #57b0d9;
     -webkit-font-smoothing: antialiased;
     margin: 0;
@@ -27,7 +27,7 @@ html {
 
 /* サイト全体のスタイル */
 .site {
-    color: #FFFFFF;
+    color: #FFFAFA;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -150,7 +150,7 @@ h2 {
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 25px;
-    color: #FFFFFF;
+    color: #444444;
     text-align: left;
 }
 
